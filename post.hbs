@@ -163,6 +163,15 @@ into the {body} of the default.hbs template --}}
           </div>
         </section>
         {{!-- If you want to embed comments, this is a good place to do it! --}}
+        <section id="isso-thread" data-title="{{title}}" data-isso-id="{{id}}" class="m-comments">
+          <script src="https://comments.wgtarisch.xyz/js/embed.min.js"
+            data-isso-lang="de"
+            data-isso-css="false"
+            data-isso-avatar="true"
+            data-isso-vote="true"
+            data-isso-feed="true">
+          </script>
+        </section>
         {{!--
           <section class="m-comments">
             <div class="m-load-comments">
